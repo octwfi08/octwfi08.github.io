@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: sans-serif;
 }
 
 .container {
@@ -26,7 +26,6 @@ header {
     text-align: center;
     margin: 0;
     font-weight: normal;
-    font-family: 'Londrina Shadow', cursive;
 }
 
 li {
