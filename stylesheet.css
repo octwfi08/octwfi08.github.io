@@ -45,7 +45,7 @@ header {
 #top-wrapper {
     margin: 120px 30px 10px 30px;
     height: contain;
-    background-image: url("image/concrete.jpg");
+    background-image: url("concrete.jpg");
     background-size: cover;
 }
 
@@ -100,7 +100,7 @@ h2 {
 footer {
     height: 50px;
     width: 100%;
-    background-image: url("image/wood.jpg");
+    background-image: url("wood.jpg");
     background-size: cover;
     color: black;
 }
