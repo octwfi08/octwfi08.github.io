@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: serif;
+    font-weight: lighter;
 }
 
 .container {
@@ -8,7 +9,7 @@
 }
 
 header {
-    height: 40px;
+    height: 90px;
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
     position :fixed;
@@ -19,23 +20,38 @@ header {
 
 #header-center {
     margin: 0 auto;
-    width: 100px;
+    width: 150px;
 }
 
 #header-logo {
     text-align: center;
-    margin: 0;
-    font-weight: normal;
-}
-
-li {
-    list-style: none;
+    margin: 12px 0;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    border-bottom: 3px solid ivory;
+    border-top: 3px solid ivory;
     float: left;
 }
 
+#header-right {
+    float: right;
+}
+
+#header-right li {
+    list-style: none;
+    display: inline-block;
+}
+
 #top-wrapper {
-    padding-top: 80px;
-    height: 1000px;
+    margin: 120px 30px 10px 30px;
+    height: contain;
+    background-image: url("image/concrete.jpg");
+    background-size: cover;
+}
+
+#heading {
+    margin: 0;
+    padding-top: 60px;
 }
 
 #main-items {
@@ -49,10 +65,42 @@ li {
     display: inline-block;
     width: 25%;
     padding: 25px;
+    opacity: 0.8;
+}
+
+.item p {
+    margin: 0;
+    font-size: 20px;
 }
 
 .icon {
     height: 20%;
     width: 100%;
     border-radius: 8px;
+}
+
+.item:hover {
+    opacity: 1;
+}
+
+h2 {
+    margin: 0;
+}
+
+#text-contents {
+    width: 50%;
+    margin: 50px 0 50px 30px;
+}
+
+#text {
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-image: url("image/wood.jpg");
+    background-size: cover;
+    color: black;
 }
